@@ -8,7 +8,7 @@
 %       - skeletozation based on: SKELETON3D by Philip Kollmannsberger (philipk@gmx.net)
 %       - graph coversion based on: SKEL2GRAPH3D by Philip Kollmannsberger (philipk@gmx.net)
 % 
-% Jakub Salplachta (jakub.salplachta@ceitec.vutbr.cz
+% Jakub Salplachta (jakub.salplachta@ceitec.vutbr.cz)
 % [1] Citation for the article
 %------------------------------------------
 
@@ -16,18 +16,18 @@ clearvars
 close all
 clc
 %% Input data
-path1PV='Q:\Hankeova\Revize\Masks\2714_NDR\New_masks\PV'; % Path to whole system mask
-path2PV='Q:\Hankeova\Revize\Masks\2714_NDR\New_masks\PV_analysis'; % Path to main branch mask
-path1BD='Q:\Hankeova\Revize\Masks\2714_NDR\New_masks\BD'; % Path to whole system mask
-path2BD='Q:\Hankeova\Revize\Masks\2714_NDR\New_masks\BD_analysis'; % Path to main branch mask
+path1PV=''; % Path to whole system mask
+path2PV=''; % Path to main branch mask
+path1BD=''; % Path to whole system mask
+path2BD=''; % Path to main branch mask
 
 %% Output folder
-output_folder='Q:\Hankeova\Revize\Results_code_CEITEC\2714_NDR_new'; % Path to output folder
+output_folder=''; % Path to output folder
 mkdir(output_folder); 
 
 %% Other parameters
-sample_id = '2714_NDR'; % Sample ID
-voxel_size=0.01200341619551182; % Voxel size 
+sample_id = ''; % Sample ID
+voxel_size=0; % Voxel size 
 vis=0; % True/false - visualization of branching analysis
 
 % Histogram settings
