@@ -1,15 +1,20 @@
 %------------------------------------------
-% Matlab pipeline for analysis of PV and BD systems
+% Matlab pipeline for analysis of PV and BD systems, please refer to [1]
 %   - input: binary masks for each system, binary masks of main branches
 %   - output: numerical results of evaluated parameters
 %   
 %   - pipeline is based on skeletonization, followed by graph conversion
 %   and subsequent analysis
-%       - skeletozation based on: SKELETON3D by Philip Kollmannsberger (philipk@gmx.net)
-%       - graph coversion based on: SKEL2GRAPH3D by Philip Kollmannsberger (philipk@gmx.net)
+%       - skeletozation based on: SKELETON3D by Philip Kollmannsberger (philipk@gmx.net) [2]
+%       - graph coversion based on: SKEL2GRAPH3D by Philip Kollmannsberger (philipk@gmx.net) [2]
 % 
 % Jakub Salplachta (jakub.salplachta@ceitec.vutbr.cz)
-% [1] Citation for the article
+
+% References: 
+% [1] ...
+% [2] Kerschnitzki, Kollmannsberger et al., 
+% "Architecture of the osteocyte network correlates with bone material quality." 
+% Journal of Bone and Mineral Research, 28(8):1837-1845, 2013. 
 %------------------------------------------
 
 clearvars
